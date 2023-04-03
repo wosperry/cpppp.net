@@ -6,12 +6,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'CSharp新手',
+  title: 'cpppp.net',
   tagline: 'CSharp新手',
   favicon: 'img/.net.ico',
 
   // Set the production url of your site here
-  url: 'https://Cpppp.net',
+  url: 'https://cpppp.net',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -19,7 +19,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'wosperry', // Usually your GitHub org/user name.
-  projectName: 'Cpppp.net', // Usually your repo name.
+  projectName: 'cpppp.net', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -42,14 +42,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/wosperry/cpppp.net',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -64,9 +57,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/.net.jpg',
       navbar: {
-        title: 'Cpppp.net',
+        title: 'cpppp.net',
         logo: {
-          alt: 'Cpppp.net Logo',
+          alt: 'cpppp.net Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -74,7 +67,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'begin',
           },
           {
             href: 'https://github.com/wosperry/cpppp.net',
@@ -112,21 +105,9 @@ const config = {
               },
             ],
           },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: 'https://wosperry.com',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
+        
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} cpppp.net. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
